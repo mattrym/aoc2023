@@ -10,6 +10,8 @@ import (
 	"aoc2023/day07"
 	"aoc2023/day08"
 	"aoc2023/day09"
+	"aoc2023/day10"
+	"aoc2023/day11"
 	"fmt"
 	"os"
 	"strconv"
@@ -47,5 +49,9 @@ func main() {
 		day08.Run()
 	case 9: // day09
 		day09.Run()
+	case 10: // day10
+		day10.Run()
+	case 11: // day11
+		day11.Run()
 	}
 }
